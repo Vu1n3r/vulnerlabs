@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2f2b42;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    color: #ffd166;
+}
+.card{
+    border-color: #ffd166;
+    background-color: #2f2b42;
+    color: #ffd166;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.btn{
+    border-color: #ffd166;
+    background-color: #2f2b42;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: #ffd166;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+.btn:hover, .btn:focus{
+    border-color: #ffd166;
+    background-color: #2f2b42;
+    color: #ffd166 !important;
+    box-shadow: 0 0 2px #ffd166, 0 0 3px #ffd166, 0 0 4px #ffd166;
+    transform: scale(1.05);
+}
+
+a{
+    padding-top: 10px;
+}
